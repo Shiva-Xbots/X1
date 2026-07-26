@@ -4,7 +4,7 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = "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"
 API_URL = "https://models.inference.ai.azure.com/chat/completions"
 MODEL = "gpt-4o-mini"
 WATCH_EXTENSIONS=[
